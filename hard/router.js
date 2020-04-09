@@ -26,6 +26,12 @@ module.exports = (req, res) => {
     case "/preguntas-frecuentes":
       res.end(contenido.faq);
       break;
+    case "/otro-modulo":
+      res.end(contenido.otroModulo);
+      break;
+    case "/modulo-objeto":
+      res.end(contenido.moduloObjeto.linea)
+      break;
     // Default
     default:
       res.end(contenido.notFound);

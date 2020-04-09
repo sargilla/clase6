@@ -5,7 +5,8 @@ const sucursales = require('./sucursales');
 const contacto = require('./contacto');
 const faq = require('./faq');
 const notFound = require('./notFound');
-
+const otroModulo = require('./otroModulo');
+const moduloObjeto = require('./moduloObjeto');
 module.exports = {
     home,
     cartelera,
@@ -13,5 +14,7 @@ module.exports = {
     sucursales,
     contacto,
     faq,
-    notFound
+    notFound,
+    otroModulo,
+    moduloObjeto
 };
